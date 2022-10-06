@@ -1,0 +1,6 @@
+package datagoogleworkspacechromepolicyschema
+
+
+type DataGoogleworkspaceChromePolicySchemaDefinitionEnumTypeValue struct {
+}
+

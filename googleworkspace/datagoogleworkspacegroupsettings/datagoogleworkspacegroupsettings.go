@@ -1,0 +1,88 @@
+package datagoogleworkspacegroupsettings
+
+import (
+	"reflect"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+)
+
+func init() {
+	_jsii_.RegisterClass(
+		"@cdktf/provider-googleworkspace.dataGoogleworkspaceGroupSettings.DataGoogleworkspaceGroupSettings",
+		reflect.TypeOf((*DataGoogleworkspaceGroupSettings)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "allowExternalMembers", GoGetter: "AllowExternalMembers"},
+			_jsii_.MemberProperty{JsiiProperty: "allowWebPosting", GoGetter: "AllowWebPosting"},
+			_jsii_.MemberProperty{JsiiProperty: "archiveOnly", GoGetter: "ArchiveOnly"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "customFooterText", GoGetter: "CustomFooterText"},
+			_jsii_.MemberProperty{JsiiProperty: "customReplyTo", GoGetter: "CustomReplyTo"},
+			_jsii_.MemberProperty{JsiiProperty: "customRolesEnabledForSettingsToBeMerged", GoGetter: "CustomRolesEnabledForSettingsToBeMerged"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultMessageDenyNotificationText", GoGetter: "DefaultMessageDenyNotificationText"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "email", GoGetter: "Email"},
+			_jsii_.MemberProperty{JsiiProperty: "emailInput", GoGetter: "EmailInput"},
+			_jsii_.MemberProperty{JsiiProperty: "enableCollaborativeInbox", GoGetter: "EnableCollaborativeInbox"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "includeCustomFooter", GoGetter: "IncludeCustomFooter"},
+			_jsii_.MemberProperty{JsiiProperty: "includeInGlobalAddressList", GoGetter: "IncludeInGlobalAddressList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "isArchived", GoGetter: "IsArchived"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "membersCanPostAsTheGroup", GoGetter: "MembersCanPostAsTheGroup"},
+			_jsii_.MemberProperty{JsiiProperty: "messageModerationLevel", GoGetter: "MessageModerationLevel"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "primaryLanguage", GoGetter: "PrimaryLanguage"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "replyTo", GoGetter: "ReplyTo"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "sendMessageDenyNotification", GoGetter: "SendMessageDenyNotification"},
+			_jsii_.MemberProperty{JsiiProperty: "spamModerationLevel", GoGetter: "SpamModerationLevel"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanAssistContent", GoGetter: "WhoCanAssistContent"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanContactOwner", GoGetter: "WhoCanContactOwner"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanDiscoverGroup", GoGetter: "WhoCanDiscoverGroup"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanJoin", GoGetter: "WhoCanJoin"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanLeaveGroup", GoGetter: "WhoCanLeaveGroup"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanModerateContent", GoGetter: "WhoCanModerateContent"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanModerateMembers", GoGetter: "WhoCanModerateMembers"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanPostMessage", GoGetter: "WhoCanPostMessage"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanViewGroup", GoGetter: "WhoCanViewGroup"},
+			_jsii_.MemberProperty{JsiiProperty: "whoCanViewMembership", GoGetter: "WhoCanViewMembership"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataGoogleworkspaceGroupSettings{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktf/provider-googleworkspace.dataGoogleworkspaceGroupSettings.DataGoogleworkspaceGroupSettingsConfig",
+		reflect.TypeOf((*DataGoogleworkspaceGroupSettingsConfig)(nil)).Elem(),
+	)
+}
