@@ -2,10 +2,10 @@ package role
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/role/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/role/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -520,6 +520,44 @@ func Role_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-googleworkspace.role.Role",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Role_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateRole_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.role.Role",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Role_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateRole_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.role.Role",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

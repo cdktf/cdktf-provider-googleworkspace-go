@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package gmailsendasalias
 
@@ -58,6 +57,14 @@ func (g *jsiiProxy_GmailSendAsAlias) validatePutSmtpMsaParameters(value *GmailSe
 }
 
 func validateGmailSendAsAlias_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateGmailSendAsAlias_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateGmailSendAsAlias_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

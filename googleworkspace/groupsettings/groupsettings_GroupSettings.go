@@ -2,10 +2,10 @@ package groupsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/groupsettings/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/groupsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1396,6 +1396,44 @@ func GroupSettings_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-googleworkspace.groupSettings.GroupSettings",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func GroupSettings_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateGroupSettings_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.groupSettings.GroupSettings",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func GroupSettings_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateGroupSettings_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.groupSettings.GroupSettings",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

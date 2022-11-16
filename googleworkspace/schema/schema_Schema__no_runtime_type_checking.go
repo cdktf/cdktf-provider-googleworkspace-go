@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package schema
 
@@ -62,6 +61,14 @@ func (s *jsiiProxy_Schema) validatePutTimeoutsParameters(value *SchemaTimeouts) 
 }
 
 func validateSchema_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateSchema_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateSchema_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

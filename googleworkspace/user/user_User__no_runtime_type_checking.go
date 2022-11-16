@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package user
 
@@ -118,6 +117,14 @@ func (u *jsiiProxy_User) validatePutWebsitesParameters(value interface{}) error 
 }
 
 func validateUser_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateUser_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateUser_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

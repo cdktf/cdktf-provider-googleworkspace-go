@@ -2,9 +2,9 @@ package datagoogleworkspacerole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/datagoogleworkspacerole/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/datagoogleworkspacerole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

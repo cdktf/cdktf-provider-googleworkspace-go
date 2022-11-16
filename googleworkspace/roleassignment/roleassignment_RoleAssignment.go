@@ -2,10 +2,10 @@ package roleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/roleassignment/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/roleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -544,6 +544,44 @@ func RoleAssignment_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-googleworkspace.roleAssignment.RoleAssignment",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func RoleAssignment_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateRoleAssignment_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.roleAssignment.RoleAssignment",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func RoleAssignment_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateRoleAssignment_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.roleAssignment.RoleAssignment",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

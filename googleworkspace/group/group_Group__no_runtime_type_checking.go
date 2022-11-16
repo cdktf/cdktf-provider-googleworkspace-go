@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package group
 
@@ -58,6 +57,14 @@ func (g *jsiiProxy_Group) validatePutTimeoutsParameters(value *GroupTimeouts) er
 }
 
 func validateGroup_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateGroup_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateGroup_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

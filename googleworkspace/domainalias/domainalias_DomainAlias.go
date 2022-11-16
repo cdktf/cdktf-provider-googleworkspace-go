@@ -2,10 +2,10 @@ package domainalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/domainalias/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/domainalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -497,6 +497,44 @@ func DomainAlias_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-googleworkspace.domainAlias.DomainAlias",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DomainAlias_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDomainAlias_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.domainAlias.DomainAlias",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DomainAlias_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDomainAlias_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.domainAlias.DomainAlias",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package provider
 
@@ -14,6 +13,14 @@ func (g *jsiiProxy_GoogleworkspaceProvider) validateOverrideLogicalIdParameters(
 }
 
 func validateGoogleworkspaceProvider_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateGoogleworkspaceProvider_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateGoogleworkspaceProvider_IsTerraformProviderParameters(x interface{}) error {
 	return nil
 }
 

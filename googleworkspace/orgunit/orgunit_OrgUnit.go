@@ -2,10 +2,10 @@ package orgunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/orgunit/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/orgunit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -602,6 +602,44 @@ func OrgUnit_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-googleworkspace.orgUnit.OrgUnit",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func OrgUnit_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateOrgUnit_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.orgUnit.OrgUnit",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func OrgUnit_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateOrgUnit_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.orgUnit.OrgUnit",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

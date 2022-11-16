@@ -2,10 +2,10 @@ package gmailsendasalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/gmailsendasalias/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/gmailsendasalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -684,6 +684,44 @@ func GmailSendAsAlias_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-googleworkspace.gmailSendAsAlias.GmailSendAsAlias",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func GmailSendAsAlias_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateGmailSendAsAlias_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.gmailSendAsAlias.GmailSendAsAlias",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func GmailSendAsAlias_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateGmailSendAsAlias_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.gmailSendAsAlias.GmailSendAsAlias",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

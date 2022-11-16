@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package datagoogleworkspacegroup
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataGoogleworkspaceGroup) validateOverrideLogicalIdParameters
 }
 
 func validateDataGoogleworkspaceGroup_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataGoogleworkspaceGroup_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataGoogleworkspaceGroup_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

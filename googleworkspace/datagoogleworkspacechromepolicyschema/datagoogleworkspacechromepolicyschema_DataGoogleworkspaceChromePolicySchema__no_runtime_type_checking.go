@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package datagoogleworkspacechromepolicyschema
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataGoogleworkspaceChromePolicySchema) validateOverrideLogica
 }
 
 func validateDataGoogleworkspaceChromePolicySchema_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataGoogleworkspaceChromePolicySchema_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataGoogleworkspaceChromePolicySchema_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 
