@@ -2,9 +2,9 @@ package groupmembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v3/jsii"
 
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v2/groupmembers/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v3/groupmembers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
