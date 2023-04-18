@@ -1,3 +1,3 @@
 # `data_googleworkspace_role`
 
-Refer to the Terraform Registory for docs: [`data_googleworkspace_role`](https://www.terraform.io/docs/providers/googleworkspace/d/role).
+Refer to the Terraform Registory for docs: [`data_googleworkspace_role`](https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/data-sources/role).

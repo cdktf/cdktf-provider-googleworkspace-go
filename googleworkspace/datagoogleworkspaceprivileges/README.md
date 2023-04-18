@@ -1,3 +1,3 @@
 # `data_googleworkspace_privileges`
 
-Refer to the Terraform Registory for docs: [`data_googleworkspace_privileges`](https://www.terraform.io/docs/providers/googleworkspace/d/privileges).
+Refer to the Terraform Registory for docs: [`data_googleworkspace_privileges`](https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/data-sources/privileges).
