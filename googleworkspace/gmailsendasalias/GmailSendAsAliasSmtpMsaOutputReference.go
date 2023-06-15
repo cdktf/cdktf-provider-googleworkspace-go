@@ -2,9 +2,9 @@ package gmailsendasalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v4/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v5/jsii"
 
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v4/gmailsendasalias/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v5/gmailsendasalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
