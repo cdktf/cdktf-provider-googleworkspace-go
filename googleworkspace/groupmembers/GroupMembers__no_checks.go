@@ -7,6 +7,10 @@ package groupmembers
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (g *jsiiProxy_GroupMembers) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GroupMembers) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (g *jsiiProxy_GroupMembers) validateGetStringMapAttributeParameters(terrafo
 	return nil
 }
 
+func (g *jsiiProxy_GroupMembers) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GroupMembers) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GroupMembers) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -56,6 +68,10 @@ func (g *jsiiProxy_GroupMembers) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (g *jsiiProxy_GroupMembers) validatePutMembersParameters(value interface{}) error {
+	return nil
+}
+
+func validateGroupMembers_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

@@ -7,6 +7,10 @@ package gmailsendasalias
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (g *jsiiProxy_GmailSendAsAlias) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GmailSendAsAlias) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (g *jsiiProxy_GmailSendAsAlias) validateGetStringMapAttributeParameters(ter
 	return nil
 }
 
+func (g *jsiiProxy_GmailSendAsAlias) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GmailSendAsAlias) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GmailSendAsAlias) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -56,6 +68,10 @@ func (g *jsiiProxy_GmailSendAsAlias) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (g *jsiiProxy_GmailSendAsAlias) validatePutSmtpMsaParameters(value *GmailSendAsAliasSmtpMsa) error {
+	return nil
+}
+
+func validateGmailSendAsAlias_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

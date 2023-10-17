@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleworkspaceChromePolicySchema) validateOverrideLogica
 	return nil
 }
 
+func validateDataGoogleworkspaceChromePolicySchema_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataGoogleworkspaceChromePolicySchema_IsConstructParameters(x interface{}) error {
 	return nil
 }

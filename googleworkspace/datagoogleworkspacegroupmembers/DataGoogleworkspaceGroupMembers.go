@@ -5,10 +5,10 @@ package datagoogleworkspacegroupmembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v6/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v7/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v6/datagoogleworkspacegroupmembers/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v7/datagoogleworkspacegroupmembers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -412,6 +412,25 @@ func (j *jsiiProxy_DataGoogleworkspaceGroupMembers)SetProvider(val cdktf.Terrafo
 		"provider",
 		val,
 	)
+}
+
+// Generates CDKTF code for importing a DataGoogleworkspaceGroupMembers resource upon running "cdktf plan <stack-name>".
+func DataGoogleworkspaceGroupMembers_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+	_init_.Initialize()
+
+	if err := validateDataGoogleworkspaceGroupMembers_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktf.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-googleworkspace.dataGoogleworkspaceGroupMembers.DataGoogleworkspaceGroupMembers",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
 }
 
 // Checks if `x` is a construct.

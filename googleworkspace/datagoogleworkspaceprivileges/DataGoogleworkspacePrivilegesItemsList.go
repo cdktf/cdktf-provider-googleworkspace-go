@@ -5,9 +5,9 @@ package datagoogleworkspaceprivileges
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v6/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v7/jsii"
 
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v6/datagoogleworkspaceprivileges/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v7/datagoogleworkspaceprivileges/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

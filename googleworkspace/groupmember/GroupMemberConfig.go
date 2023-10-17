@@ -37,20 +37,20 @@ type GroupMemberConfig struct {
 	// Defaults to `ALL_MAIL`.
 	//
 	// Defines mail delivery preferences of member. Acceptable values are:
-	// - `ALL_MAIL`: All messages, delivered as soon as they arrive.
-	// - `DAILY`: No more than one message a day.
-	// - `DIGEST`: Up to 25 messages bundled into a single message.
-	// - `DISABLED`: Remove subscription.
-	// - `NONE`: No messages.
+	// 	- `ALL_MAIL`: All messages, delivered as soon as they arrive.
+	// 	- `DAILY`: No more than one message a day.
+	// 	- `DIGEST`: Up to 25 messages bundled into a single message.
+	// 	- `DISABLED`: Remove subscription.
+	// 	- `NONE`: No messages.
 	//
 	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/resources/group_member#delivery_settings GroupMember#delivery_settings}
 	DeliverySettings *string `field:"optional" json:"deliverySettings" yaml:"deliverySettings"`
 	// Defaults to `MEMBER`.
 	//
 	// The member's role in a group. The API returns an error for cycles in group memberships. For example, if group1 is a member of group2, group2 cannot be a member of group1. Acceptable values are:
-	// - `MANAGER`: This role is only available if the Google Groups for Business is enabled using the Admin Console. A `MANAGER` role can do everything done by an `OWNER` role except make a member an `OWNER` or delete the group. A group can have multiple `MANAGER` members.
-	// - `MEMBER`: This role can subscribe to a group, view discussion archives, and view the group's membership list.
-	// - `OWNER`: This role can send messages to the group, add or remove members, change member roles, change group's settings, and delete the group. An OWNER must be a member of the group. A group can have more than one OWNER.
+	// 	- `MANAGER`: This role is only available if the Google Groups for Business is enabled using the Admin Console. A `MANAGER` role can do everything done by an `OWNER` role except make a member an `OWNER` or delete the group. A group can have multiple `MANAGER` members.
+	// 	- `MEMBER`: This role can subscribe to a group, view discussion archives, and view the group's membership list.
+	// 	- `OWNER`: This role can send messages to the group, add or remove members, change member roles, change group's settings, and delete the group. An OWNER must be a member of the group. A group can have more than one OWNER.
 	//
 	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/resources/group_member#role GroupMember#role}
 	Role *string `field:"optional" json:"role" yaml:"role"`
@@ -61,9 +61,9 @@ type GroupMemberConfig struct {
 	// Defaults to `USER`.
 	//
 	// The type of group member. Acceptable values are:
-	// - `CUSTOMER`: The member represents all users in a domain. An email address is not returned and the ID returned is the customer ID.
-	// - `GROUP`: The member is another group.
-	// - `USER`: The member is a user.
+	// 	- `CUSTOMER`: The member represents all users in a domain. An email address is not returned and the ID returned is the customer ID.
+	// 	- `GROUP`: The member is another group.
+	// 	- `USER`: The member is a user.
 	//
 	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/resources/group_member#type GroupMember#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`

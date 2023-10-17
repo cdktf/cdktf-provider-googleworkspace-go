@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleworkspaceDomain) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func validateDataGoogleworkspaceDomain_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataGoogleworkspaceDomain_IsConstructParameters(x interface{}) error {
 	return nil
 }

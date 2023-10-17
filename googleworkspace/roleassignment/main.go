@@ -14,6 +14,7 @@ func init() {
 		"@cdktf/provider-googleworkspace.roleAssignment.RoleAssignment",
 		reflect.TypeOf((*RoleAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "assignedTo", GoGetter: "AssignedTo"},
 			_jsii_.MemberProperty{JsiiProperty: "assignedToInput", GoGetter: "AssignedToInput"},
@@ -36,8 +37,10 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "orgUnitId", GoGetter: "OrgUnitId"},
 			_jsii_.MemberProperty{JsiiProperty: "orgUnitIdInput", GoGetter: "OrgUnitIdInput"},

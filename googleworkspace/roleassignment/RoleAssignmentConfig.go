@@ -34,7 +34,7 @@ type RoleAssignmentConfig struct {
 	//
 	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/resources/role_assignment#org_unit_id RoleAssignment#org_unit_id}
 	OrgUnitId *string `field:"optional" json:"orgUnitId" yaml:"orgUnitId"`
-	// Defaults to `CUSTOMER`. The scope in which this role is assigned. Valid values are : - `CUSTOMER` - `ORG_UNIT`.
+	// Defaults to `CUSTOMER`. The scope in which this role is assigned. Valid values are : 	- `CUSTOMER` 	- `ORG_UNIT`.
 	//
 	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/googleworkspace/0.7.0/docs/resources/role_assignment#scope_type RoleAssignment#scope_type}
 	ScopeType *string `field:"optional" json:"scopeType" yaml:"scopeType"`

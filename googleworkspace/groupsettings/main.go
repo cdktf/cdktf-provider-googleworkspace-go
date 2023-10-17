@@ -14,6 +14,7 @@ func init() {
 		"@cdktf/provider-googleworkspace.groupSettings.GroupSettings",
 		reflect.TypeOf((*GroupSettings)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "allowExternalMembers", GoGetter: "AllowExternalMembers"},
 			_jsii_.MemberProperty{JsiiProperty: "allowExternalMembersInput", GoGetter: "AllowExternalMembersInput"},
@@ -51,6 +52,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberProperty{JsiiProperty: "includeCustomFooter", GoGetter: "IncludeCustomFooter"},
 			_jsii_.MemberProperty{JsiiProperty: "includeCustomFooterInput", GoGetter: "IncludeCustomFooterInput"},
 			_jsii_.MemberProperty{JsiiProperty: "includeInGlobalAddressList", GoGetter: "IncludeInGlobalAddressList"},
@@ -63,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "membersCanPostAsTheGroupInput", GoGetter: "MembersCanPostAsTheGroupInput"},
 			_jsii_.MemberProperty{JsiiProperty: "messageModerationLevel", GoGetter: "MessageModerationLevel"},
 			_jsii_.MemberProperty{JsiiProperty: "messageModerationLevelInput", GoGetter: "MessageModerationLevelInput"},
+			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
