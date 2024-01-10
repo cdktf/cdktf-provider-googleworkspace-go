@@ -7,6 +7,10 @@ package role
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (r *jsiiProxy_RolePrivilegesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
 func (r *jsiiProxy_RolePrivilegesList) validateGetParameters(index *float64) error {
 	return nil
 }

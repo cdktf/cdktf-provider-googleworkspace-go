@@ -7,6 +7,10 @@ package user
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (u *jsiiProxy_UserPhonesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
 func (u *jsiiProxy_UserPhonesList) validateGetParameters(index *float64) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package schema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v7/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v8/jsii"
 
-	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v7/schema/internal"
+	"github.com/cdktf/cdktf-provider-googleworkspace-go/googleworkspace/v8/schema/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

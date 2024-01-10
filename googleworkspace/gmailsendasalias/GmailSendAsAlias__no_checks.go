@@ -59,7 +59,15 @@ func (g *jsiiProxy_GmailSendAsAlias) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (g *jsiiProxy_GmailSendAsAlias) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GmailSendAsAlias) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GmailSendAsAlias) validateMoveToIdParameters(id *string) error {
 	return nil
 }
 

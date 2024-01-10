@@ -59,7 +59,15 @@ func (c *jsiiProxy_ChromePolicy) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (c *jsiiProxy_ChromePolicy) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChromePolicy) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChromePolicy) validateMoveToIdParameters(id *string) error {
 	return nil
 }
 

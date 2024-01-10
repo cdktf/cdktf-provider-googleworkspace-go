@@ -7,6 +7,10 @@ package datagoogleworkspaceuser
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (d *jsiiProxy_DataGoogleworkspaceUserKeywordsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataGoogleworkspaceUserKeywordsList) validateGetParameters(index *float64) error {
 	return nil
 }

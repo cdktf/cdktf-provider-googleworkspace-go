@@ -7,6 +7,10 @@ package datagoogleworkspaceschema
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (d *jsiiProxy_DataGoogleworkspaceSchemaFieldsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataGoogleworkspaceSchemaFieldsList) validateGetParameters(index *float64) error {
 	return nil
 }
